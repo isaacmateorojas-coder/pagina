@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Error — Archivo Corrupto</title>
+
+<style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        background: #000;
+        overflow: hidden; 
+    }
+
+    .gif-fullscreen {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;  
+        display: block;
+    }
+
+    .error-text {
+        position: fixed;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+        color: #e1130d;
+        font-family: monospace;
+        font-size: 22px;
+        text-shadow: 0 0 10px #e1130d;
+        pointer-events: none; 
+    }
+</style>
+
+</head>
+<body>
+
+   
+    <img src="imagenes/error_ver.gif" class="gif-fullscreen" alt="error">
+
+     <audio id="sound" src="imagenes/tv_rota.mp3" autoplay loop></audio>
+
+    <div class="error-text">ERR0R_Δrch1v0_C0rrµpt0</div>
+
+</body>
+</html>
